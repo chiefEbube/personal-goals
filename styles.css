@@ -62,7 +62,6 @@ header h1 {
     font-size: 5rem;
     color: rgb(226, 226, 226);
     width: 60%;
-    text-shadow: 4px 4px 6px rgb(11, 11, 11);
 }
 
 .goals {
@@ -144,7 +143,7 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 5em 0 2.5em;
+        margin: 20vh 0;
     }
 
     .hero-section>.time {
@@ -154,31 +153,31 @@ footer {
     header h1 {
         font-size: 4rem;
         width: 100%;
+        margin-bottom: 3rem;
     }
 }
 
-/* Large smartphones and tablets in portrait mode */
+/* Large smartphones and tablets */
 @media (max-width: 768px) {
     .nav-bar {
-        font-size: 0.75rem;
-        margin-bottom: 10em;
+        font-size: 0.88rem;
     }
 
     .nav-bar > .logo{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .hero-section {
-        margin: 3em 0 2.5em;
+        margin: 20vh 0;
     }
 
     header h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         margin-bottom: 1em;
     }
 
     .card {
-        flex: 1 1 100%;
+        flex: 1 1 80%;
     }
 
     .personal-info>.slack-profile-picture {
@@ -204,7 +203,7 @@ footer {
     }
 
     .hero-section {
-        margin: 25vh 0;
+        margin: 22vh 0;
     }
 
     header h1 {
