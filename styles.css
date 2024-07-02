@@ -17,7 +17,7 @@ h2 {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./bg.jpg') no-repeat center center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('./bg.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #f1f0f0;
     height: 100vh;
