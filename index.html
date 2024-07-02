@@ -9,52 +9,63 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <nav class="nav-bar">
-                <strong class="logo">Ebube<span>.</span></strong>
-                <strong><a href="http://">HNG Internship</a></strong>
-            </nav>
-            <div class="hero-section">
-                <div>
-                    <h1>My Tech Goals for the Next 2 Years</h1>
-                </div>
-                <div class="time">
-                    <p>
-                        <strong>Current Time (UTC):</strong>
-                        <span data-testid="currentTimeUTC" id="currentTimeUTC"></span>
-                    </p>
-                    <p>
-                        <strong>Current Day:</strong> <span data-testid="currentDay" id="currentDay"></span>
-                    </p>
-                </div>
+    <header class="container">
+        <nav class="nav-bar">
+            <strong class="logo"><a href="/">Ebube<span class="red-span">.</span></a></strong>
+            <strong><a href="https://hng.tech/internship">HNG Internship</a></strong>
+        </nav>
+        <div class="hero-section">
+            <div>
+                <h1>My Tech Goals for the Next 2 Years</h1>
             </div>
-        </header>
+            <div class="time">
+                <p>
+                    <strong>Current Time (UTC):</strong>
+                    <span data-testid="currentTimeUTC" id="currentTimeUTC"></span>
+                </p>
+                <p>
+                    <strong>Current Day:</strong> <span data-testid="currentDay" id="currentDay"></span>
+                </p>
+            </div>
+        </div>
+    </header>
 
 
-        <section class="goals">
-                <div class="card">Become proficient in full-stack web development.</div>
-                <div class="card">Contribute to open-source projects.</div>
-                <div class="card">Gain expertise in cloud computing and DevOps practices.</div>
-                <div class="card">Develop a personal project using AI and machine learning.</div>
-                <div class="card">Attend and speak at tech conferences.</div>
-        </section>
-        <section class="personal-info">
-            <h2>Personal Info</h2>
-            <p><strong>Slack Name:</strong> <span data-testid="slackDisplayName">Your Slack Name</span></p>
+    <section class="container">
+        <h2>Goals<span class="red-span">.</span></h2>
+        <div class="goals">
+            <div class="card"><span></span>Become proficient in full-stack web development.</div>
+            <div class="card"><span></span>Contribute to open-source projects.</div>
+            <div class="card"><span></span>Gain expertise in cloud computing and DevOps practices.</div>
+            <div class="card"><span></span>Explore ethical hacking and cyber security.</div>
+            <div class="card"><span></span>Develop a personal project using AI and machine learning.</div>
+            <div class="card"><span></span>Attend and speak at tech conferences.</div>
+        </div>
 
-            <p><strong>Slack Email:</strong> <span data-testid="slackEmail">your.email@domain.com</span></p>
-            <p><strong>Slack Profile Picture:</strong><br>
-                <!-- <img src="./slack-profile.jpg" alt="Slack Profile" data-testid="slackProfilePicture" id="slackProfilePicture"> -->
-            </p>
-        </section>
-        <footer class="links">
-            <h2>Useful Links</h2>
+    </section>
+
+    <section class="bio container">
+        <h2>Personal Info<span class="red-span">.</span></h2>
+        <div class="personal-info">
+            <div class="slack-profile-picture">
+                <img src="./slack-profile.jpg" alt="Slack Profile" data-testid="slackProfilePicture"
+                    id="slackProfilePicture">
+            </div>
+
+            <div>
+                <p><strong>Slack Name:</strong> <span data-testid="slackDisplayName">Ebubechi Anyanwu</span></p>
+                <p><strong>Slack Email:</strong> <span data-testid="slackEmail">brave.ebube@gmail.com</span></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="links container">
             <a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech Learn</a>
             <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
             <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
-        </footer>
-    </div>
+        </div>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 
