@@ -180,6 +180,11 @@ footer {
         flex: 1 1 80%;
     }
 
+    .card>span {
+        width: 70px;
+        height: 3px;
+    }
+
     .personal-info>.slack-profile-picture {
         width: 250px;
     }
@@ -216,6 +221,11 @@ footer {
     .card {
         padding: 1em;
         font-size: 1rem;
+    }
+
+    .card>span {
+        width: 60px;
+        height: 2px;
     }
 
     .personal-info>.slack-profile-picture {
